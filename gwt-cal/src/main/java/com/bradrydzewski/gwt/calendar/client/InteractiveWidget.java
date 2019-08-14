@@ -102,10 +102,10 @@ public abstract class InteractiveWidget extends Composite {
     	 */
         RootPanel.get().add(focusPanel);
         DOM.setStyleAttribute(focusPanel.getElement(), "position", "absolute");
-        DOM.setStyleAttribute(focusPanel.getElement(), "top", "0");
-        DOM.setStyleAttribute(focusPanel.getElement(), "left", "-10");
+        DOM.setStyleAttribute(focusPanel.getElement(), "top", "0px");
+        DOM.setStyleAttribute(focusPanel.getElement(), "left", "-10px");
         DOM.setStyleAttribute(focusPanel.getElement(), "height", "100%");
-        DOM.setStyleAttribute(focusPanel.getElement(), "width", "0");
+        DOM.setStyleAttribute(focusPanel.getElement(), "width", "0px");
     }
 
     public ComplexPanel getRootPanel() {
